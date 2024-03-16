@@ -5,7 +5,6 @@
 "level_order" : ["-3","-2","-1",0,1,2,3,4,5,6,7,8,9,10,11,12,19,"?"]
 "course": [
 	{
-		"class": "bms.player.beatoraja.CourseData",
 		"name": "ワルコード段位認定 いく",
 		"hash": [
 			{
@@ -51,19 +50,16 @@
 		],
 		"trophy": [
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "bronzemedal",
 				"missrate": 7.5,
 				"scorerate": 55
 			},
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "silvermedal",
 				"missrate": 5,
 				"scorerate": 70
 			},
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "goldmedal",
 				"missrate": 2.5,
 				"scorerate": 85
@@ -72,7 +68,6 @@
 		"release": false
 	},
 	{
-		"class": "bms.player.beatoraja.CourseData",
 		"name": "ワルコード段位認定 パッキャオ十段",
 		"hash": [
 			{
@@ -91,19 +86,16 @@
 		],
 		"trophy": [
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "bronzemedal",
 				"missrate": 7.5,
 				"scorerate": 55
 			},
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "silvermedal",
 				"missrate": 5,
 				"scorerate": 70
 			},
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "goldmedal",
 				"missrate": 2.5,
 				"scorerate": 85
@@ -111,7 +103,6 @@
 		]
 	},
 	{
-		"class": "bms.player.beatoraja.CourseData",
 		"name": "ワルコード段位認定 パッキャオ九段",
 		"hash": [
 			{
@@ -141,19 +132,16 @@
 		],
 		"trophy": [
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "bronzemedal",
 				"missrate": 7.5,
 				"scorerate": 55
 			},
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "silvermedal",
 				"missrate": 5,
 				"scorerate": 70
 			},
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "goldmedal",
 				"missrate": 2.5,
 				"scorerate": 85
@@ -162,7 +150,6 @@
 		"release": false
 	},
 	{
-		"class": "bms.player.beatoraja.CourseData",
 		"name": "ワルコード段位認定 パッキャオ八段",
 		"hash": [
 			{
@@ -210,19 +197,16 @@
 		],
 		"trophy": [
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "bronzemedal",
 				"missrate": 7.5,
 				"scorerate": 55
 			},
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "silvermedal",
 				"missrate": 5,
 				"scorerate": 70
 			},
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "goldmedal",
 				"missrate": 2.5,
 				"scorerate": 85
@@ -230,7 +214,6 @@
 		]
 	},
 	{
-		"class": "bms.player.beatoraja.CourseData",
 		"name": "ワルコード段位認定 パッキャオ七段",
 		"hash": [
 			{
@@ -276,19 +259,16 @@
 		],
 		"trophy": [
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "bronzemedal",
 				"missrate": 7.5,
 				"scorerate": 55
 			},
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "silvermedal",
 				"missrate": 5,
 				"scorerate": 70
 			},
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "goldmedal",
 				"missrate": 2.5,
 				"scorerate": 85
@@ -296,7 +276,6 @@
 		]
 	},
 	{
-		"class": "bms.player.beatoraja.CourseData",
 		"name": "ワルコード段位認定 パッキャオ六段",
 		"hash": [
 			{
@@ -344,19 +323,16 @@
 		],
 		"trophy": [
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "bronzemedal",
 				"missrate": 7.5,
 				"scorerate": 55
 			},
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "silvermedal",
 				"missrate": 5,
 				"scorerate": 70
 			},
 			{
-				"class": "bms.player.beatoraja.CourseData$TrophyData",
 				"name": "goldmedal",
 				"missrate": 2.5,
 				"scorerate": 85
