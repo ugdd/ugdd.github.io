@@ -1,4 +1,4 @@
-{"name" : "ワルコード段位認定","symbol" : "鷹","data_url" : "./score.json","level_order" : ["-3","-2","-1",0,1,2,3,4,5,6,7,8,9,10,11,12,19,"?"],
+{"name" : "ワルコード難易度表","symbol" : "鷹","data_url" : "./score.json","level_order" : ["-3","-2","-1",0,1,2,3,4,5,6,7,8,9,10,11,12,19,"?"],
 "course":[
 {"name":"ワルコード段位認定 パッキャオ六段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["40cf0c821b5ec2dcd98eb794fc213c0f","2b28d47ccaa8307baeacbd82823aa529","02b9739f637cfa5733a46f5346ae8642","680b9ef823d8de8ad03c0ecc309452bb"]},
 {"name":"ワルコード段位認定 パッキャオ七段","constraint":["grade_mirror","gauge_lr2",""],"md5": ["47529ec20f6bff55ea0a2d5ce278ddb4","6467d0b07a09e1648f83c581bad4d432","764ea11d815c55d8675304fc6e3b41f9","a4bfc465574c54b5cd10ac28a599a180"]},
