@@ -1,0 +1,181 @@
+/* style.css - Yellow-Green "Luminous" Soft UI Theme */
+
+:root {
+  /* Color Palette (Yellow-Green / Lime) */
+  --bg-color: #f4f8ec;         /* Very light yellowish green grey */
+  --card-bg: #ffffff;
+  --text-main: #364228;        /* Very dark green-grey */
+  --text-muted: #6b7a5a;
+  
+  --accent-base: #a3e635;      /* Lime/Yellow-Green Base */
+  --accent-hover: #84cc16;     /* Lime/Yellow-Green Darker */
+  --accent-light: #ecfccb;     /* Very light */
+  
+  --nav-gradient-start: #65a30d;
+  --nav-gradient-end: #84cc16;
+
+  /* Shadows for Glassmorphism & Soft UI */
+  --shadow-soft: 0 10px 30px -10px rgba(132, 204, 22, 0.15);
+  --shadow-glow: 0 0 20px rgba(163, 230, 53, 0.4);
+  --shadow-glow-hover: 0 8px 30px rgba(163, 230, 53, 0.5);
+  
+  --border-radius-card: 20px;
+  --border-radius-badge: 12px;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing: 0.02em;
+  padding-bottom: 50px;
+}
+
+/* =======================================
+   Typography & Links
+======================================== */
+.text-accent {
+  color: var(--accent-hover) !important;
+}
+
+a {
+  color: var(--accent-hover);
+  transition: all 0.25s ease-in-out;
+}
+a:hover {
+  color: var(--nav-gradient-start);
+}
+
+.hover-glow:hover {
+  text-shadow: 0 0 8px rgba(163, 230, 53, 0.6);
+}
+
+.song-title {
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.song-title:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-hover);
+  text-decoration-thickness: 2px;
+}
+
+/* =======================================
+   Header & Nav
+======================================== */
+.nav-gradient {
+  background: linear-gradient(135deg, var(--nav-gradient-start) 0%, var(--nav-gradient-end) 100%);
+}
+
+.navbar-brand {
+  letter-spacing: 0.05em;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* =======================================
+   Cards & Layout
+======================================== */
+.glass-card {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius-card);
+  box-shadow: var(--shadow-soft);
+  transition: all 0.3s ease-in-out;
+}
+
+.Main-table-container {
+  overflow: hidden; /* For border radius */
+}
+
+.soft-hr {
+  border-top: 1px solid rgba(132, 204, 22, 0.2);
+  opacity: 1;
+  margin: 1rem 0;
+}
+
+.info-card {
+  border-left: 5px solid var(--accent-base) !important;
+}
+
+/* =======================================
+   Custom Table Styling
+======================================== */
+.luminous-table {
+  color: var(--text-main);
+  margin-bottom: 0;
+}
+
+/* Remove default Bootstrap vertical borders and keep it clean */
+.luminous-table th,
+.luminous-table td {
+  padding: 1rem;
+  border-bottom: 1px solid rgba(132, 204, 22, 0.1);
+}
+.luminous-table tr:last-child td {
+  border-bottom: none;
+}
+
+.table-header th {
+  font-weight: 700;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(132, 204, 22, 0.2) !important;
+}
+
+/* Table rows micro-interactions */
+.luminous-row {
+  transition: all 0.25s ease;
+  background-color: transparent;
+}
+
+.luminous-row:hover {
+  background-color: var(--accent-light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+  /* Ensures z-index layer works for shadow hovering */
+  position: relative;
+  z-index: 2;
+  border-radius: 8px;
+}
+
+/* Ensure padding remains consistent when highlighting */
+.luminous-row:hover td {
+  border-bottom-color: transparent;
+}
+
+/* =======================================
+   Badges & Separators
+======================================== */
+/* Separation row for each Level */
+.level-separator-content {
+  text-align: center;
+  padding: 1.5rem 0 1rem 0 !important;
+}
+
+.separator-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--nav-gradient-start) 0%, var(--nav-gradient-end) 100%);
+  color: #fff;
+  font-weight: 700;
+  padding: 0.4rem 1.5rem;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 12px rgba(132, 204, 22, 0.3);
+  letter-spacing: 0.05em;
+}
+
+.level-badge {
+  display: inline-block;
+  background-color: var(--accent-light);
+  color: var(--nav-gradient-start);
+  font-weight: 700;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--border-radius-badge);
+  font-size: 0.9rem;
+  border: 1px solid rgba(132, 204, 22, 0.2);
+}
+
+.luminous-row:hover .level-badge {
+  background-color: var(--card-bg);
+}
