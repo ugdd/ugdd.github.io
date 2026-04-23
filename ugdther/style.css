@@ -1,23 +1,21 @@
-/* style.css - Yellow-Green "Luminous" Soft UI Theme */
-
 :root {
-  /* Color Palette (Yellow-Green / Lime) */
-  --bg-color: #f4f8ec;         /* Very light yellowish green grey */
+  /* Color Palette (Blue / Cyan) */
+  --bg-color: #f0f4f8;         /* Very light blue-grey */
   --card-bg: #ffffff;
-  --text-main: #364228;        /* Very dark green-grey */
-  --text-muted: #6b7a5a;
+  --text-main: #1e293b;        /* Deep slate/navy blue */
+  --text-muted: #64748b;
   
-  --accent-base: #a3e635;      /* Lime/Yellow-Green Base */
-  --accent-hover: #84cc16;     /* Lime/Yellow-Green Darker */
-  --accent-light: #ecfccb;     /* Very light */
+  --accent-base: #38bdf8;      /* Sky Blue Base */
+  --accent-hover: #0ea5e9;     /* Sky Blue Darker */
+  --accent-light: #e0f2fe;     /* Very light blue */
   
-  --nav-gradient-start: #65a30d;
-  --nav-gradient-end: #84cc16;
+  --nav-gradient-start: #0284c7;
+  --nav-gradient-end: #38bdf8;
 
   /* Shadows for Glassmorphism & Soft UI */
-  --shadow-soft: 0 10px 30px -10px rgba(132, 204, 22, 0.15);
-  --shadow-glow: 0 0 20px rgba(163, 230, 53, 0.4);
-  --shadow-glow-hover: 0 8px 30px rgba(163, 230, 53, 0.5);
+  --shadow-soft: 0 10px 30px -10px rgba(14, 165, 233, 0.15);
+  --shadow-glow: 0 0 20px rgba(56, 189, 248, 0.4);
+  --shadow-glow-hover: 0 8px 30px rgba(56, 189, 248, 0.5);
   
   --border-radius-card: 20px;
   --border-radius-badge: 12px;
@@ -47,7 +45,7 @@ a:hover {
 }
 
 .hover-glow:hover {
-  text-shadow: 0 0 8px rgba(163, 230, 53, 0.6);
+  text-shadow: 0 0 8px rgba(56, 189, 248, 0.6);
 }
 
 .song-title {
@@ -88,7 +86,7 @@ a:hover {
 }
 
 .soft-hr {
-  border-top: 1px solid rgba(132, 204, 22, 0.2);
+  border-top: 1px solid rgba(56, 189, 248, 0.2);
   opacity: 1;
   margin: 1rem 0;
 }
@@ -109,7 +107,7 @@ a:hover {
 .luminous-table th,
 .luminous-table td {
   padding: 1rem;
-  border-bottom: 1px solid rgba(132, 204, 22, 0.1);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.1);
 }
 .luminous-table tr:last-child td {
   border-bottom: none;
@@ -120,7 +118,7 @@ a:hover {
   color: var(--text-muted);
   font-size: 0.9rem;
   text-transform: uppercase;
-  border-bottom: 2px solid rgba(132, 204, 22, 0.2) !important;
+  border-bottom: 2px solid rgba(56, 189, 248, 0.2) !important;
 }
 
 /* Table rows micro-interactions */
@@ -161,7 +159,7 @@ a:hover {
   padding: 0.4rem 1.5rem;
   border-radius: 30px;
   font-size: 1.1rem;
-  box-shadow: 0 4px 12px rgba(132, 204, 22, 0.3);
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
   letter-spacing: 0.05em;
 }
 
@@ -173,7 +171,7 @@ a:hover {
   padding: 0.25rem 0.75rem;
   border-radius: var(--border-radius-badge);
   font-size: 0.9rem;
-  border: 1px solid rgba(132, 204, 22, 0.2);
+  border: 1px solid rgba(56, 189, 248, 0.2);
 }
 
 .luminous-row:hover .level-badge {
